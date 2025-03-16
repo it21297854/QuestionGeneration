@@ -1,0 +1,2 @@
+frot end - npm start
+back - node server.js

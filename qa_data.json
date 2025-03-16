@@ -1,0 +1,52 @@
+[
+    {
+        "pdf_path": "Notes1.pdf",
+        "question": "What is the main idea of the following passage? Single Responsibility Principle guides how modules, classes, and functions should operate by design. Each  module or class should have only one responsible for part of the functionalities provided by the software.  Classes or functions with single functionalities are more understandable, manageable, and customizable.  Using single responsibility for your code also makes the code more organized and easier to read.",
+        "options": [
+            "Single Responsibility Principle guides how modules, classes, and functions should operate by design",
+            "Each  module or class should have only one responsible for part of the functionalities provided by the software",
+            "makes the code more organized and easier to read",
+            "Classes or functions with single functionalities are more understandable, manageable, and customizable"
+        ]
+    },
+    {
+        "pdf_path": "Notes1.pdf",
+        "question": "What is the main idea of the following passage? Open and Closed Principle Software design is usually done in stages. Development teams implement  features, test them, and then deliver them to users. Then they move on to implementing the next set of  features. On the premise of introducing new functionalities, OCP says that it's incorrect to change an  already existing code or functionality. OCP also states that code can be open to extension but closed tmodification. Instead, add an extension that introduces your proposed functionalities in place of changing  a fundamental code. Composition and inheritance are the best approaches to adding new code without  breaking the old one.",
+        "options": [
+            "Then they move on to implementing the next set of  features",
+            "Composition and inheritance are the best approaches to adding new code without  breaking the old one.",
+            "introducing new functionalities",
+            "Instead, add an extension that introduces your proposed functionalities in place of changing  a fundamental code"
+        ]
+    },
+    {
+        "pdf_path": "Notes2.pdf",
+        "question": "What is the main idea of the following passage? 2. Agile Development:  Focuses on iterative development and collaboration. Teams work in sprints,  delivering small, functional software increments frequently.  3. DevOps:  Combines development and operations to improve collaboration between teams,  automate work\ufb02ows, and ensure continuous integration and delivery (CI/CD).  4. Spiral Model:  Combines iterative development with systematic risk analysis, ideal for large and  complex projects.  Challenges in Software Engineering  Software engineers face numerous challenges, including:  -  Requirement Volatility: Changing user requirements during the project lifecycle.  -  Technical Debt: Accumulating suboptimal code or shortcuts to meet deadlines.  -  Security Concerns: Protecting software against vulnerabilities and threats.  -  Scalability: Ensuring the software performs well with increasing users or data.",
+        "options": [
+            "Teams work in sprints,  delivering small, functional software increments frequently",
+            "Spiral Model:  Combines iterative development with systematic risk analysis, ideal for large and  complex projects",
+            "Focuses on iterative development and collaboration",
+            "DevOps:  Combines development and operations to improve collaboration between teams,  automate work\ufb02ows, and ensure continuous integration and delivery (CI/CD)"
+        ]
+    },
+    {
+        "pdf_path": "Notes2.pdf",
+        "question": "What is the main idea of the following passage? Emerging Trends in Software Engineering  The \ufb01eld of software engineering evolves rapidly, in\ufb02uenced by advancements in technology.  Current trends include:  1. Arti\ufb01cial Intelligence (AI) in Software Development:  AI is being used to optimize code generation, automate testing, and provide  intelligent recommendations for design improvements.  2. Microservices Architecture:  Applications are built as a collection of small, loosely coupled services, improving  scalability and fault tolerance.  3. Cloud Computing:  Software is increasingly being designed for cloud environments, leveraging services  like AWS, Azure, and Google Cloud.  4. Low-Code/No-Code Development:  Tools like OutSystems and Mendix allow users with minimal technical expertise tbuild functional software quickly.  5. Blockchain Applications:",
+        "options": [
+            "Blockchain Applications:",
+            "Cloud Computing:  Software is increasingly being designed for cloud environments, leveraging services  like AWS, Azure, and Google Cloud",
+            "improving  scalability and fault tolerance",
+            "Low-Code/No-Code Development:  Tools like OutSystems and Mendix allow users with minimal technical expertise tbuild functional software quickly"
+        ]
+    },
+    {
+        "pdf_path": "Notes2.pdf",
+        "question": "What is the main idea of the following passage? Blockchain is being integrated into software for secure data management and  decentralized operations.  Ethics in Software Engineering  Ethical considerations play a crucial role in software engineering. Engineers must prioritize user  privacy, transparency, and the societal impact of their work. Guidelines such as the ACM Code of  Ethics provide frameworks for ethical decision-making.",
+        "options": [
+            "Blockchain is being integrated into software for secure data management and  decentralized operations",
+            "Ethics in Software Engineering  Ethical considerations play a crucial role in software engineering",
+            "prioritize user  privacy, transparency, and the societal impact of their work",
+            "Guidelines such as the ACM Code of  Ethics provide frameworks for ethical decision-making."
+        ]
+    }
+]

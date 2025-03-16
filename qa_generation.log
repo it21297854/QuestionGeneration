@@ -1,0 +1,129 @@
+INFO:filelock:Lock 2099934940704 acquired on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\4e28ff6ebdf584f5372d9de68867399142435d9a.lock
+INFO:filelock:Lock 2099934940704 released on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\4e28ff6ebdf584f5372d9de68867399142435d9a.lock
+INFO:filelock:Lock 2098766066976 acquired on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\4fd6c49c32ecf41886dba213d40030f063c72b07.lock
+INFO:filelock:Lock 2098766066976 released on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\4fd6c49c32ecf41886dba213d40030f063c72b07.lock
+INFO:filelock:Lock 2099935623536 acquired on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\378f74060b20f6a9a1ea41b03fc0504466206255.lock
+INFO:filelock:Lock 2099935623536 released on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\378f74060b20f6a9a1ea41b03fc0504466206255.lock
+INFO:filelock:Lock 2099935622480 acquired on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\bd944e5f1b3ad9b70dd9d00010a517059e19265671076b8b0a4a58d9491842bc.lock
+INFO:filelock:Lock 2099935622480 released on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\bd944e5f1b3ad9b70dd9d00010a517059e19265671076b8b0a4a58d9491842bc.lock
+INFO:filelock:Lock 2664451491104 acquired on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\d52815623b46b7db1c4b957b5a83a8ad30b0146a.lock
+INFO:filelock:Lock 2664451491104 released on C:\Users\User/.cache\huggingface\hub\models--t5-small\blobs\d52815623b46b7db1c4b957b5a83a8ad30b0146a.lock
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\.gitattributes.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\.gitattributes.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\1_Pooling\config.json.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\1_Pooling\config.json.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\README.md.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\README.md.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\config.json.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\config.json.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\config_sentence_transformers.json.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\config_sentence_transformers.json.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\data_config.json.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\data_config.json.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\model.safetensors.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\model.safetensors.lock
+INFO:filelock:Lock 1964361899408 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model.onnx.lock
+INFO:filelock:Lock 1964361899408 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model.onnx.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O1.onnx.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O1.onnx.lock
+INFO:filelock:Lock 1964361899984 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O2.onnx.lock
+INFO:filelock:Lock 1964361899984 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O2.onnx.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O3.onnx.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O3.onnx.lock
+INFO:filelock:Lock 1964361899504 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O4.onnx.lock
+INFO:filelock:Lock 1964361899504 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_O4.onnx.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_qint8_arm64.onnx.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_qint8_arm64.onnx.lock
+INFO:filelock:Lock 1964361899408 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_qint8_avx512.onnx.lock
+INFO:filelock:Lock 1964361899408 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_qint8_avx512.onnx.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_qint8_avx512_vnni.onnx.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_qint8_avx512_vnni.onnx.lock
+INFO:filelock:Lock 1964361899984 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_quint8_avx2.onnx.lock
+INFO:filelock:Lock 1964361899984 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\onnx\model_quint8_avx2.onnx.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model.bin.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model.bin.lock
+INFO:filelock:Lock 1964361899504 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model.xml.lock
+INFO:filelock:Lock 1964361899504 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model.xml.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model_qint8_quantized.bin.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model_qint8_quantized.bin.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model_qint8_quantized.xml.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\openvino\openvino_model_qint8_quantized.xml.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\pytorch_model.bin.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\pytorch_model.bin.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\sentence_bert_config.json.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\sentence_bert_config.json.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\special_tokens_map.json.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\special_tokens_map.json.lock
+INFO:filelock:Lock 1963420137120 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\tokenizer.json.lock
+INFO:filelock:Lock 1963420137120 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\tokenizer.json.lock
+INFO:filelock:Lock 1963418432080 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\tokenizer_config.json.lock
+INFO:filelock:Lock 1963418432080 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\tokenizer_config.json.lock
+INFO:filelock:Lock 1963420135728 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\train_script.py.lock
+INFO:filelock:Lock 1963420135728 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\train_script.py.lock
+INFO:filelock:Lock 1963418432464 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\vocab.txt.lock
+INFO:filelock:Lock 1963418432464 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\vocab.txt.lock
+INFO:filelock:Lock 1963420137120 acquired on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\modules.json.lock
+INFO:filelock:Lock 1963420137120 released on C:\Users\User/.cache\torch\sentence_transformers\sentence-transformers_all-MiniLM-L6-v2\modules.json.lock
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:root:Processing PDF: Notes1.pdf
+ERROR:root:Error generating QA: `context` cannot be empty
+INFO:root:Processing PDF: Notes2.pdf
+ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
+ERROR:root:Error generating QA: `context` cannot be empty

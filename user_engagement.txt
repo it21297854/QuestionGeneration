@@ -1,0 +1,8 @@
+{"user_id": 1, "activity_type": "answered_question", "timestamp": "2025-01-18 23:10:16", "metadata": "Question ID: 101"}
+{"user_id": 2, "activity_type": "viewed_page", "timestamp": "2025-01-18 23:10:16", "metadata": "Page: Dashboard"}
+{"user_id": 1, "activity_type": "completed_task", "timestamp": "2025-01-18 23:10:16", "metadata": "Task: Profile Update"}
+{"user_id": 1, "activity_type": "answered_question", "timestamp": "2025-01-18 23:12:58", "metadata": "Question ID: 101"}
+{"user_id": 2, "activity_type": "viewed_page", "timestamp": "2025-01-18 23:12:58", "metadata": "Page: Dashboard"}
+{"user_id": 1, "activity_type": "completed_task", "timestamp": "2025-01-18 23:12:58", "metadata": "Task: Profile Update"}
+{"user_id": 1, "activity_type": "answered_question", "timestamp": "2025-01-18 23:17:53", "metadata": "Question ID: 101"}
+{"user_id": 3, "activity_type": "answered_question", "timestamp": "2025-01-18 23:20:31", "metadata": "Question ID: 101"}

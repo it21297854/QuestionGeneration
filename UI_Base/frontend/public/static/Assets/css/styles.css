@@ -1,0 +1,651 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #7d2ae8;
+    padding-top: 60px; /* Add padding to avoid overlap with navbar */
+    padding-bottom: 60px; /* Add padding to avoid overlap with footer */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Container Styles */
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+    margin-top: 0; /* Remove margin-top as padding is added to body */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 32px;
+    color: #ff6f61;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Ensure form group takes full width */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Input Field Styles */
+.form-group input {
+    width: 100%;
+    padding: 12px 20px; /* Match button padding */
+    border: 2px solid #ff6f61;
+    border-radius: 8px; /* Match button border-radius */
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.form-group input:focus {
+    border-color: #ff3e29;
+    outline: none;
+}
+
+/* Button Styles */
+.btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.btn:hover {
+    background: #ff3e29;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Register Link Styles */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.register-link a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .form-group input, .btn {
+        font-size: 14px;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 200px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #ff6f61;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ff6f61;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+/* Container Styles for Registration Page */
+.registration-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 1000px; /* Increased width to accommodate image and form */
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+    margin-top: 0; /* Remove margin-top as padding is added to body */
+}
+
+/* Left Side - Image Styles */
+.registration-image {
+    flex: 1;
+    margin-right: 40px; /* Space between image and form */
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.registration-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Right Side - Form Styles */
+.registration-form {
+    flex: 1;
+    max-width: 400px; /* Limit form width */
+}
+
+/* Heading Styles for Registration Form */
+.registration-form h1 {
+    font-size: 32px;
+    color: #ff6f61;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Group Styles */
+.registration-form .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.registration-form .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Input Field Styles */
+.registration-form .form-group input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.registration-form .form-group input:focus {
+    border-color: #ff3e29;
+    outline: none;
+}
+
+/* Button Styles */
+.registration-form .btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.registration-form .btn:hover {
+    background: #ff3e29;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Link Styles */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-link a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for Registration Page */
+@media (max-width: 768px) {
+    .registration-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .registration-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .registration-form {
+        max-width: 100%;
+    }
+
+    .registration-form h1 {
+        font-size: 26px;
+    }
+
+    .registration-form .form-group input, .registration-form .btn {
+        font-size: 14px;
+    }
+}
+
+.option-label {
+    line-height: 1.5; /* Ensure spacing between options */
+}
+
+.custom-radio {
+    margin-right: 10px; /* Space between radio button and text */
+    transform: scale(1.2); /* Increase radio button size */
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 16px;  /* Ensures questions have the same font size */
+    font-weight: bold;
+}
+
+.option-label {
+    font-size: 16px;  /* Ensures all options have the same font size */
+    line-height: 1.5;
+}
+
+.custom-radio {
+    margin-right: 10px;
+    transform: scale(1.2); /* Increase radio button size */
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+/* Ensure consistent text size */
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Uniform styling for options */
+.option-label {
+    font-size: 16px;
+    line-height: 1.5; /* Ensures proper spacing */
+}
+
+/* Align radio buttons and labels */
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Space between options */
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between radio button and text */
+}
+
+/* Increase radio button size */
+.custom-radio {
+    transform: scale(1.2);
+}
+
+/* Logout Button Styles */
+.navbar ul li button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1px 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li button:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Responsive Design for Logout Button */
+@media (max-width: 600px) {
+    .navbar ul li button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+/* File Uploader Styles */
+.file-uploader {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-uploader input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.file-uploader .custom-file-upload {
+    background: #ff6f61;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.file-uploader .custom-file-upload:hover {
+    background: #ff3e29;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.file-uploader .upload-button {
+    background: #28a745;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.file-uploader .upload-button:hover {
+    background: #218838;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Questions and Options Styles */
+.questions-container {
+    margin-top: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-radio {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.option-label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Submit Button Styles */
+.submit-button {
+    background: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background: #0056b3;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Results Section Styles */
+.results-container {
+    margin-top: 30px;
+}
+
+.results-container h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.results-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.total-score {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 16px;
+    }
+
+    .option-label {
+        font-size: 14px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+    }
+
+    .results-container h3 {
+        font-size: 20px;
+    }
+
+    .results-container p {
+        font-size: 14px;
+    }
+
+    .total-score {
+        font-size: 18px;
+    }
+}

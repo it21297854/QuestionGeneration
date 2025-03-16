@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions and Answers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Questions and Answers</h1>
+        <form method="POST">
+            <div class="question-list">
+                {% for idx, question in enumerate(questions) %}
+                    <div class="question-item mb-4">
+                        <h4>{{ question.question }}</h4>
+                        <div class="options">
+                            {% for option in question.options %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="question_{{ idx }}" value="{{ option }}" required>
+                                    <label class="form-check-label">{{ option }}</label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Answers</button>
+        </form>
+    </div>
+</body>
+</html>
