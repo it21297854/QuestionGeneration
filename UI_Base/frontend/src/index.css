@@ -15,7 +15,8 @@ body {
   margin-top: 10px;
 }
 
-.recommendations h4, .recommendations h5 {
+.recommendations h4,
+.recommendations h5 {
   color: #343a40;
   margin-top: 15px;
 }

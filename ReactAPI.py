@@ -20,23 +20,26 @@ questions_store = []
 
 # IT-related words for each level
 high_level_keywords = [
-    'machine_learning', 'natural language processing', 'computer vision',
-    'optical character recognition', 'deep learning', 'cybersecurity',
-    'autonomous systems', 'artificial intelligence'
+    'machine_learning', 'natural language processing', 'optical character recognition',
+    'deep learning', 'cybersecurity', 'artificial intelligence', 'quantum computing',
+    'blockchain', 'predictive models', 'threat detection'
 ]
 
 medium_level_keywords = [
     'flask', 'mysql', 'sqlalchemy', 'bootstrap', 'figma', 'role-based access control',
-    'data management', 'database schema', 'predictive models', 'security testing',
-    'performance optimization', 'horizontal scaling'
+    'data management', 'database schema', 'security testing', 'performance optimization',
+    'horizontal scaling', 'devops', 'docker', 'cloud computing', 'encryption',
+    'referential integrity', 'modular architecture'
 ]
 
 low_level_keywords = [
     'modular design', 'user interface', 'responsive design', 'mobile compatibility',
-    'authentication', 'authorization', 'referential integrity', 'encryption',
-    'secure authentication', 'threat detection', 'scalability', 'data consistency',
-    'software architecture', 'system performance', 'UI/UX principles'
+    'authentication', 'authorization', 'secure authentication', 'system performance',
+    'UI/UX principles', 'data consistency', 'software architecture', 'scalability',
+    'secure access control', 'index numbers', 'real-time feedback', 'dynamic UI',
+    'session management'
 ]
+
 
 # categorize
 def categorize_difficulty(paragraph, keywords):
