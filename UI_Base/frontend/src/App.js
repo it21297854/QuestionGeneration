@@ -7,6 +7,7 @@ import Login from './components/User_Login'
 import HomePage from './components/HomePage'
 import Quize from './components/Quize'
 import Subjects from './components/SubSelection'
+import MathsQuiz from './components/MathsQuiz'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path='/User_Login' element={<Login />} />
             <Route path='/Sub_Selection' element={<Subjects />} />
             <Route path='/Quize/software engineering' element={<Quize />} />
+            <Route path='/Quize/maths' element={<MathsQuiz />} />
           </Routes>
         </MainLayout>
       </Router>
