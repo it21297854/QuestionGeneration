@@ -83,9 +83,7 @@ const QuestionDisplay = () => {
     try {
       const response = await axios.post(
         'http://127.0.0.1:5000/submit_answers',
-        {
-          answers: userAnswers,
-        }
+        { answers: userAnswers }
       )
       setResults(response.data.results)
 
@@ -104,11 +102,9 @@ const QuestionDisplay = () => {
       <h2 className='mb-4'>AI-based Knowledge {level && ` - ${level}`}</h2>
 
       {/* File Upload Section */}
-      <div className='file-uploader mb-4'>
-        <label
-          htmlFor='file-upload'
-          className='custom-file-upload btn btn-secondary'
-        >
+      {/* File Upload Section */}
+      <div className='file-uploader'>
+        <label htmlFor='file-upload' className='custom-file-upload'>
           Choose File
         </label>
         <input
@@ -116,7 +112,6 @@ const QuestionDisplay = () => {
           type='file'
           accept='.pdf,.docx,.txt,.ppt,.pptx'
           onChange={handleFileChange}
-          className='form-control mt-2'
         />
       </div>
 
@@ -124,24 +119,29 @@ const QuestionDisplay = () => {
       {questions.length === 0 ? (
         <p>No questions available. Upload a file to generate questions.</p>
       ) : (
-        <form className='question-form'>
+        <form>
           {questions.map((q, index) => (
-            <div key={index} className='card mb-4 p-3 shadow-sm'>
+            <div key={index} className='card mb-3'>
               <div className='card-body'>
-                <h5 className='card-title mb-3'>
-                  <strong>Q{index + 1}:</strong> {q.question}
+                <h5 className='card-title'>
+                  {index + 1}. {q.question}
                 </h5>
                 <div className='options-container'>
                   {q.options.map((option, i) => (
-                    <div key={i} className='form-check mb-2'>
+                    <div key={i} className='option-item'>
                       <input
-                        className='form-check-input'
+                        className='form-check-input custom-radio'
                         type='radio'
                         name={`question_${index}`}
                         value={option}
                         onChange={() => handleAnswerChange(index, option)}
                       />
-                      <label className='form-check-label ms-2'>{option}</label>
+                      <label
+                        className='form-check-label option-label'
+                        htmlFor={`question_${index}_${i}`}
+                      >
+                        {option}
+                      </label>
                     </div>
                   ))}
                 </div>
@@ -150,7 +150,7 @@ const QuestionDisplay = () => {
           ))}
           <button
             type='button'
-            className='btn btn-primary mt-3'
+            className='btn btn-primary'
             onClick={handleSubmit}
           >
             Submit
@@ -162,29 +162,22 @@ const QuestionDisplay = () => {
       {results && (
         <div className='mt-4'>
           <h3>Results</h3>
-          <ul className='list-group'>
-            {results.map((res, idx) => (
-              <li
-                key={idx}
-                className={`list-group-item ${
-                  res.result === 'Correct' ? 'text-success' : 'text-danger'
-                }`}
-              >
-                <strong>Q{idx + 1}:</strong> {res.question} -{' '}
-                <b>{res.result}</b>
-                <br />
-                <span>
-                  Your Answer: <b>{res.user_answer}</b>, Correct:{' '}
-                  <b>{res.correct_answer}</b>
-                </span>
-              </li>
-            ))}
-          </ul>
+          {results.map((res, idx) => (
+            <p
+              key={idx}
+              className={
+                res.result === 'Correct' ? 'text-success' : 'text-danger'
+              }
+            >
+              {res.question} - {res.result} (Your answer: {res.user_answer},
+              Correct: {res.correct_answer})
+            </p>
+          ))}
 
           {/* Display Total Score */}
           <div className='mt-3'>
-            <h4 className='text-info'>
-              Total Score: <b>{totalScore}</b> out of <b>{results.length}</b>
+            <h4>
+              Total Score: {totalScore} out of {results.length}
             </h4>
           </div>
         </div>

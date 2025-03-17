@@ -52,7 +52,7 @@ const Login = () => {
     <div className='registration-container'>
       {/* Left Side - Image */}
       <div className='registration-image'>
-        <img src='/static/Assets/images/back.jpg' alt='Login Image' />
+        <img src='/static/Assets/images/back.jpg' alt='Login' />
       </div>
 
       {/* Right Side - Form */}
