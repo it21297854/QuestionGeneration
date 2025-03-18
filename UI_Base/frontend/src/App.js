@@ -8,6 +8,8 @@ import HomePage from './components/HomePage'
 import Quize from './components/Quize'
 import Subjects from './components/SubSelection'
 import MathsQuiz from './components/MathsQuiz'
+import Home from "./components/Programming/src/pages/Home";
+import History from "./components/Programming/src/pages/History";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
             <Route path='/Sub_Selection' element={<Subjects />} />
             <Route path='/Quize/software engineering' element={<Quize />} />
             <Route path='/Quize/maths' element={<MathsQuiz />} />
+            <Route path='/Quize/programming' element={<Home />} />
+            <Route path='/Quize/programming/questions' element={<History />} />
           </Routes>
         </MainLayout>
       </Router>

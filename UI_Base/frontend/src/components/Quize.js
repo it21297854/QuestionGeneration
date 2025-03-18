@@ -15,7 +15,7 @@ const QuestionDisplay = () => {
 
   const fetchLevel = async () => {
     try {
-      const levelResponse = await axios.get('http://127.0.0.1:5000/get_level')
+      const levelResponse = await axios.get('http://127.0.0.1:5001/get_level')
       setLevel(levelResponse.data.level)
     } catch (error) {
       console.error('Error fetching level:', error)
@@ -58,7 +58,7 @@ const QuestionDisplay = () => {
     formData.append('file', selectedFile)
 
     try {
-      await axios.post('http://127.0.0.1:5000/upload', formData)
+      await axios.post('http://127.0.0.1:5001/upload', formData)
       alert('File uploaded successfully! Now generating questions.')
       fetchQuestions()
     } catch (error) {
@@ -68,7 +68,7 @@ const QuestionDisplay = () => {
 
   const fetchQuestions = async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:5000/get_questions')
+      const response = await axios.get('http://127.0.0.1:5001/get_questions')
       setQuestions(response.data.questions)
     } catch (error) {
       console.error('Error fetching questions:', error)
@@ -82,7 +82,7 @@ const QuestionDisplay = () => {
   const handleSubmit = async () => {
     try {
       const response = await axios.post(
-        'http://127.0.0.1:5000/submit_answers',
+        'http://127.0.0.1:5001/submit_answers',
         { answers: userAnswers }
       )
       setResults(response.data.results)
