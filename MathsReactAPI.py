@@ -24,7 +24,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 questions_store = []
 
 #  API Key
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 # Extract text from PDF
@@ -50,7 +50,28 @@ def extract_top_words(text, num_words=10):
 
 # Generate math question based on a word
 def generate_math_question(word):
-    prompt = f"Generate a simple math question based on the word '{word}'. It should be a basic arithmetic question with four answer choices, one of which is correct. Format: \n\nQuestion: <math question>\nA) <option 1>\nB) <option 2>\nC) <option 3>\nD) <option 4>\nCorrect Answer: <correct option letter>"
+    try:
+        with open("results_summary.txt", "r") as file:
+            level = file.read().strip()
+    except Exception as e:
+        level = "Medium Level"
+
+        # Define prompt based on difficulty
+    prompt = f"""
+       Generate a {level.lower()} math question using the word '{word}'.
+       - If {level.lower()} is 'low level', keep it simple with basic arithmetic.
+       - If {level.lower()} is 'medium level', include word problems or fractions.
+       - If {level.lower()} is 'high level', use algebra, geometry, or more complex concepts.
+
+       Format:
+
+       Question: <math question>
+       A) <option 1>
+       B) <option 2>
+       C) <option 3>
+       D) <option 4>
+       Correct Answer: <correct option letter>
+       """
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -67,6 +88,7 @@ def generate_math_question(word):
 
     return {
         "word": word,
+        "difficulty": level,  # Store difficulty for reference
         "question": question,
         "options": options,
         "correct_answer": correct_answer
@@ -86,6 +108,7 @@ def process_pdf_and_generate_questions(pdf_path):
 
     for word in top_words:
         question_data = generate_math_question(word)
+        print(question_data)
         questions_store.append(question_data)
 
 
@@ -149,9 +172,9 @@ def submit_answers():
         level = "Low Level"
 
     # Save
-    with open("math_results_summary.txt", "w") as file:
+    with open("results_summary.txt", "w") as file:
         file.write(f"{level}\n")
-    with open("math_results_summary.txt", "r") as file:
+    with open("results_summary.txt", "r") as file:
         level_from_file = file.read().strip()
 
     return jsonify({
@@ -174,7 +197,7 @@ def get_questions():
 def get_level():
     """Retrieve the level from the saved file."""
     try:
-        with open("math_results_summary.txt", "r") as file:
+        with open("results_summary.txt", "r") as file:
             level = file.read().strip()
         return jsonify({"level": level})
     except Exception as e:
@@ -182,4 +205,4 @@ def get_level():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5001,debug=True)
