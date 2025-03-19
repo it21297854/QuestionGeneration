@@ -24,7 +24,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 questions_store = []
 
 #  API Key
-openai.api_key = "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"
+openai.api_key = ""
 
 
 # Extract text from PDF
