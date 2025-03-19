@@ -127,3 +127,9 @@ ERROR:root:Error generating QA: `context` cannot be empty
 INFO:root:Processing PDF: Notes2.pdf
 ERROR:root:Error generating QA: Truncation error: Sequence to truncate too short to respect the provided max_length
 ERROR:root:Error generating QA: `context` cannot be empty
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)

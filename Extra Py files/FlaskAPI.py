@@ -39,7 +39,7 @@ def upload_pdf():
     if pdf_file.filename == '':
         return jsonify({'error': 'No selected file'}), 400
     if pdf_file and pdf_file.filename.endswith('.pdf'):
-        file_path = os.path.join("uploads", pdf_file.filename)
+        file_path = os.path.join("../uploads", pdf_file.filename)
         pdf_file.save(file_path)
         return jsonify({'message': 'PDF file uploaded successfully', 'file_path': file_path}), 200
     else:
@@ -273,7 +273,7 @@ def calculate_level():
 
 if __name__ == '__main__':
 
-    if not os.path.exists('uploads'):
-        os.makedirs('uploads')
+    if not os.path.exists('../uploads'):
+        os.makedirs('../uploads')
 
     app.run(debug=True)

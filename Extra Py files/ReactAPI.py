@@ -148,7 +148,7 @@ def upload_file():
         'low_level': low_level_keywords
     }) for p in paragraphs[:5]]
 
-    with open("results_summary.txt", "r") as file:
+    with open("../results_summary.txt", "r") as file:
         level_from_file = file.read().strip()
 
     questions_store = [q for q in generated_questions if q['difficulty'] == level_from_file]
@@ -157,7 +157,7 @@ def upload_file():
 
 @app.route('/get_questions', methods=['GET'])
 def get_questions():
-    with open("results_summary.txt", "r") as file:
+    with open("../results_summary.txt", "r") as file:
         level_from_file = file.read().strip()
         print(level_from_file)
 
@@ -207,11 +207,11 @@ def submit_answers():
         level = "Low Level"
 
     # Save 
-    with open("results_summary.txt", "w") as file:
+    with open("../results_summary.txt", "w") as file:
         file.write(f"{level}\n")
 
     # Read the level 
-    with open("results_summary.txt", "r") as file:
+    with open("../results_summary.txt", "r") as file:
         level_from_file = file.read().strip()
 
 
@@ -227,7 +227,7 @@ def submit_answers():
 @app.route('/get_level', methods=['GET'])
 def get_level():
     try:
-        with open("results_summary.txt", "r") as file:
+        with open("../results_summary.txt", "r") as file:
             level = file.read().strip()
         return jsonify({"level": level})
     except Exception as e:

@@ -1,6 +1,5 @@
 import React from 'react'
 import './HomePage.css' // Import external CSS file
-import { useNavigate } from 'react-router-dom'
 
 const HomePage = () => {
   return (

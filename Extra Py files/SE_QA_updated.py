@@ -6,7 +6,7 @@ import json
 import logging
 
 # Setup logging
-logging.basicConfig(filename='qa_generation.log', level=logging.INFO)
+logging.basicConfig(filename='../qa_generation.log', level=logging.INFO)
 
 # Models
 bert_model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
@@ -114,7 +114,7 @@ for pdf_path in pdf_paths:
 formatted_data = format_question_data(question_data)
 print(formatted_data)
 # Save to JSON file
-output_file = "qa_data.json"
+output_file = "../qa_data.json"
 formatted_data = format_question_data(question_data)
 with open(output_file, "w", encoding="utf-8") as file:
     file.write(formatted_data)
