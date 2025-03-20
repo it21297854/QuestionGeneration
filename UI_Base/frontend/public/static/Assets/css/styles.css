@@ -48,7 +48,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  background-color: #ff6f61;
+  background-color: #1570ef;
   color: #fff;
 }
 
@@ -67,7 +67,7 @@ body {
 /* Heading Styles */
 h1 {
   font-size: 32px;
-  color: #ff6f61;
+  color: #1570ef;
   margin-bottom: 30px;
   font-weight: 600;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
@@ -91,7 +91,7 @@ h1 {
 .form-group input {
   width: 100%;
   padding: 12px 20px; /* Match button padding */
-  border: 2px solid #ff6f61;
+  border: 2px solid #0056b3;
   border-radius: 8px; /* Match button border-radius */
   font-size: 16px;
   transition: all 0.3s ease;
@@ -105,7 +105,7 @@ h1 {
 
 /* Button Styles */
 .btn {
-  background: #ff6f61;
+  background: #0056b3;
   color: #fff;
   padding: 12px 20px;
   border: none;
@@ -132,7 +132,7 @@ h1 {
 }
 
 .register-link a {
-  color: #ff6f61;
+  color: #1570ef;
   text-decoration: none;
   font-weight: 500;
 }
@@ -220,7 +220,7 @@ h1 {
 }
 
 .footer-links li a:hover {
-  color: #ff6f61;
+  color: #1570ef;
 }
 
 .footer-social {
@@ -236,7 +236,7 @@ h1 {
 }
 
 .footer-social a:hover {
-  color: #ff6f61;
+  color: #1570ef;
 }
 
 /* Responsive Design for Footer */
@@ -296,7 +296,7 @@ h1 {
 /* Heading Styles for Registration Form */
 .registration-form h1 {
   font-size: 32px;
-  color: #ff6f61;
+  color: #1570ef;
   margin-bottom: 30px;
   font-weight: 600;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
@@ -320,7 +320,6 @@ h1 {
 .registration-form .form-group input {
   width: 100%;
   padding: 12px 20px;
-  border: 2px solid #ff6f61;
   border-radius: 8px;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -334,7 +333,7 @@ h1 {
 
 /* Button Styles */
 .registration-form .btn {
-  background: #ff6f61;
+  background: #1570ef;
   color: #fff;
   padding: 12px 20px;
   border: none;
@@ -348,7 +347,7 @@ h1 {
 }
 
 .registration-form .btn:hover {
-  background: #ff3e29;
+  background: #0056b3;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -361,7 +360,7 @@ h1 {
 }
 
 .login-link a {
-  color: #ff6f61;
+  color: #1570ef;
   text-decoration: none;
   font-weight: 500;
 }
@@ -473,7 +472,7 @@ h1 {
 }
 
 .navbar ul li button:hover {
-  background-color: #ff6f61;
+  background-color: #1570ef;
   color: #fff;
 }
 
@@ -498,7 +497,7 @@ h1 {
 }
 
 .file-uploader .custom-file-upload {
-  background: #ff6f61;
+  background: #1570ef;
   color: #fff;
   padding: 12px 20px;
   border: none;
@@ -511,7 +510,7 @@ h1 {
 }
 
 .file-uploader .custom-file-upload:hover {
-  background: #ff3e29;
+  background: #0056b3;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 

@@ -1,0 +1,90 @@
+/* Main container styling */
+.que-bank-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.difficulty-selection {
+  margin-bottom: 20px;
+}
+
+.difficulty-dropdown {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.questions-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questions-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.question-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.question-item {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.question-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.question-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.question-item strong {
+  color: #333;
+}

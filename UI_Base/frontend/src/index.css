@@ -22,11 +22,6 @@ body {
 }
 
 .btn-primary {
-  background-color: #ff6f61;
+  background-color: #1570ef;
   color: #fff;
-}
-
-.btn-secondary {
-  background-color: #6c757d;
-  border-color: #6c757d;
 }

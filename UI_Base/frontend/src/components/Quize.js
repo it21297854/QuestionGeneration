@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import './QuestionDisplay.css'
 
 const QuestionDisplay = () => {
   const [questions, setQuestions] = useState([])
@@ -102,7 +103,6 @@ const QuestionDisplay = () => {
       <h2 className='mb-4'>AI-based Knowledge {level && ` - ${level}`}</h2>
 
       {/* File Upload Section */}
-      {/* File Upload Section */}
       <div className='file-uploader'>
         <label htmlFor='file-upload' className='custom-file-upload'>
           Choose File
@@ -180,6 +180,22 @@ const QuestionDisplay = () => {
               Total Score: {totalScore} out of {results.length}
             </h4>
           </div>
+
+          {/* Educational Message */}
+          <div className='results-message'>
+            <p>Your questions are saved for educational purposes.</p>
+          </div>
+
+          {/* Encouraging Message */}
+          {totalScore === results.length ? (
+            <div className='encouragement-message'>
+              <p>Excellent! You've answered all questions correctly!</p>
+            </div>
+          ) : (
+            <div className='encouragement-message'>
+              <p>Keep it up! Learning is a journey, and you're doing great!</p>
+            </div>
+          )}
         </div>
       )}
     </div>

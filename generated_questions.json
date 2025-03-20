@@ -1,0 +1,974 @@
+[
+    {
+        "question": "When implementing figma, how does it affect the overall Object- Relational Mapping strategy?",
+        "options": [
+            "By reflecting the database structure in Python models, SQLAlchemy enables seamless integration and easier data manipulation.",
+            "SQLAlchemy, an Object- Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database.",
+            "MySQL offers reliability, scalability, and performance, making it an ideal choice for this project.",
+            "Once the design phase is complete, Flask, a lightweight Python web framework, is used to build the system."
+        ],
+        "correct_answer": "SQLAlchemy, an Object- Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database.",
+        "difficulty": "High Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "When implementing Bootstrap, how does it affect the overall orm strategy?",
+        "options": [
+            "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+            "In this project, the system implements a detailed RBAC structure, which tailors the user experience based on the user\u2019s role.",
+            "Special attention is given to the placement and alignment of UI elements to ensure they are easily accessible and usable on all devices.",
+            "This dynamic functionality ensures that users can interact with the system in a way that is intuitive and relevant to their needs."
+        ],
+        "correct_answer": "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+        "difficulty": "High Level",
+        "matched_keyword": "bootstrap"
+    },
+    {
+        "question": "When implementing machine learning, how does it affect the overall Distributed Denial of Service strategy?",
+        "options": [
+            "Security is an ongoing process, and the system is designed to evolve alongside emerging threats to stay one step ahead of potential risks.",
+            "Machine learning models are used in several parts of the system, including text classification, prediction, and recommendation tasks.",
+            "The application also undergoes regular security testing to identify vulnerabilities and implement patches before they can be exploited.",
+            "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models."
+        ],
+        "correct_answer": "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+        "difficulty": "High Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What is the relationship between SQLAlchemy and sql in complex software systems?",
+        "options": [
+            "The use of Flask and SQLAlchemy helps maintain efficient performance, even as the system scales.",
+            "Additionally, the system\u2019s performance is continually monitored, with optimizations made as needed to ensure the application can handle large datasets and high traffic volumes.",
+            "The application is built to be robust, scalable, and responsive, ensuring it meets the needs of users while maintaining high standards of security and performance.",
+            "Flask is lightweight and efficient, handling requests quickly, while SQLAlchemy optimizes database interactions by minimizing the number of queries required to fetch data."
+        ],
+        "correct_answer": "The use of Flask and SQLAlchemy helps maintain efficient performance, even as the system scales.",
+        "difficulty": "High Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "How does Single Responsibility Principle affect scalability and performance in enterprise systems?",
+        "options": [
+            "Each module or class should have only one responsible for part of the functionalities provided by the software.",
+            "Single Responsibility Principle guides how modules, classes, and functions should operate by design.",
+            "Using single responsibility for your code also makes the code more organized and easier to read.",
+            "Each module or class should have only one responsible for part of the functionalities provided by the software."
+        ],
+        "correct_answer": "Single Responsibility Principle guides how modules, classes, and functions should operate by design.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What are the advanced implementation considerations for OCP?",
+        "options": [
+            "Development teams implement features, test them, and then deliver them to users.",
+            "Instead, add an extension that introduces your proposed functionalities in place of changing a fundamental code.",
+            "On the premise of introducing new functionalities, OCP says that it's incorrect to change an already existing code or functionality.",
+            "Then they move on to implementing the next set of features."
+        ],
+        "correct_answer": "On the premise of introducing new functionalities, OCP says that it's incorrect to change an already existing code or functionality.",
+        "difficulty": "High Level",
+        "matched_keyword": null
+    },
+    {
+        "question": "How would you optimize a system that uses both UI/UX and UX Design UI?",
+        "options": [
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "When implementing rest, how does it affect the overall RBAC strategy?",
+        "options": [
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How would you optimize a system that uses both Authentication and Authorization Authentication and UI/UX?",
+        "options": [
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "A good UI/UX design enhances user satisfaction. .",
+            "Authorization, on the other hand, determines what resources a user can access. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How would you optimize a system that uses both RBAC and rest?",
+        "options": [
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "When implementing UX Design UI, how does it affect the overall UI/UX strategy?",
+        "options": [
+            "A good UI/UX design enhances user satisfaction. .",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authorization, on the other hand, determines what resources a user can access. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "What is the relationship between rest and RBAC in complex software systems?",
+        "options": [
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "When implementing AI, how does it affect the overall Machine Learning strategy?",
+        "options": [
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. .",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "How does UX Design UI enhance Mobile Compatibility Mobile in software architecture?",
+        "options": [
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "A good UI/UX design enhances user satisfaction. .",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "When implementing RBAC, how does it affect the overall rest strategy?",
+        "options": [
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How does Cybersecurity and Threat Detection Cybersecurity enhance AI in software architecture?",
+        "options": [
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. .",
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "How would you optimize a system that uses both UI and Authentication and Authorization Authentication?",
+        "options": [
+            "A good UI/UX design enhances user satisfaction. .",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "Authorization, on the other hand, determines what resources a user can access. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How does RBAC enhance rest in software architecture?",
+        "options": [
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. ."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "What is the relationship between Quantum and AI in complex software systems?",
+        "options": [
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. .",
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "Which of the following best describes the advanced software engineering principle discussed?",
+        "options": [
+            "It improves system performance through optimized algorithms.",
+            "It reduces technical debt by enforcing coding standards and best practices.",
+            "It streamlines the development process through automated workflows.",
+            "Software engineering involves designing and implementing scalable, maintainable systems."
+        ],
+        "correct_answer": "Software engineering involves designing and implementing scalable, maintainable systems.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How would you optimize a system that uses both \u2022 Linear and orm?",
+        "options": [
+            "Polynomial regression \u2022 Dealing with common issues \u2022 Normal equation",
+            "Polynomial regression \u2022 Dealing with common issues \u2022 Normal equation",
+            "\u2022 Linear regression with one variable \u2022 Linear regression with multiple variables \u2022",
+            "\u2022 Linear regression with one variable \u2022 Linear regression with multiple variables \u2022"
+        ],
+        "correct_answer": "\u2022 Linear regression with one variable \u2022 Linear regression with multiple variables \u2022",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How does Linear affect scalability and performance in enterprise systems?",
+        "options": [
+            "It enables cross-platform compatibility through standardized interfaces.",
+            "It improves system performance through optimized algorithms.",
+            "Linear regression with single variable",
+            "It streamlines the development process through automated workflows."
+        ],
+        "correct_answer": "Linear regression with single variable",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How would you optimize a system that uses both UX Design UI and Authentication and Authorization Authentication?",
+        "options": [
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "A good UI/UX design enhances user satisfaction. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How would you optimize a system that uses both AI and orm?",
+        "options": [
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers.",
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. ."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "What is the relationship between UI/UX and UX Design UI in complex software systems?",
+        "options": [
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "Authorization, on the other hand, determines what resources a user can access. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How would you optimize a system that uses both rest and RBAC?",
+        "options": [
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "What is the relationship between Cybersecurity and Threat Detection Cybersecurity and AI in complex software systems?",
+        "options": [
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. .",
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "How does Authentication and Authorization Authentication enhance Mobile Compatibility Mobile in software architecture?",
+        "options": [
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "A good UI/UX design enhances user satisfaction. .",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How does mysql enhance SQL in software architecture?",
+        "options": [
+            "This separation of concerns between the application and database layers leads to cleaner, more maintainable code.",
+            "With SQLAlchemy, developers can work with Python objects and models instead of writing raw SQL queries, which significantly reduces development time and complexity.",
+            "By reflecting the database structure in Python models, SQLAlchemy enables seamless integration and easier data manipulation.",
+            "SQLAlchemy, an Object-Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database."
+        ],
+        "correct_answer": "SQLAlchemy, an Object-Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database.",
+        "difficulty": "High Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "How would you optimize a system that uses both Bootstrap and UI?",
+        "options": [
+            "This dynamic functionality ensures that users can interact with the system in a way that is intuitive and relevant to their needs.",
+            "The use of Bootstrap ensures that the interface remains consistent and polished, while custom styles allow for branding and unique visual elements.",
+            "A key feature of the UI is its dynamic nature, with components like modal windows used for number collection and student forms that display dynamically based on user selection.",
+            "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones."
+        ],
+        "correct_answer": "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+        "difficulty": "High Level",
+        "matched_keyword": "bootstrap"
+    },
+    {
+        "question": "How would you optimize a system that uses both RBAC and orm?",
+        "options": [
+            "Role-based access control (RBAC) is a crucial feature in modern software systems, as it ensures that different types of users have appropriate access to the system\u2019s resources and data.",
+            "The implementation of RBAC also enhances the security of the application by ensuring that users cannot perform unauthorized actions, such as modifying other users\u2019 records or accessing sensitive data.",
+            "Teachers have access to data relevant to the students they manage, and they can view attendance records for specific students based on index numbers.",
+            "In this project, the system implements a detailed RBAC structure, which tailors the user experience based on the user\u2019s role."
+        ],
+        "correct_answer": "The implementation of RBAC also enhances the security of the application by ensuring that users cannot perform unauthorized actions, such as modifying other users\u2019 records or accessing sensitive data.",
+        "difficulty": "High Level",
+        "matched_keyword": null
+    },
+    {
+        "question": "When implementing OCR, how does it affect the overall machine learning strategy?",
+        "options": [
+            "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+            "These models are trained on historical data and use statistical algorithms to make informed predictions based on current inputs.",
+            "This allows the system to offer personalized recommendations for job seekers or vehicle care systems, improving user experience and decision-making.",
+            "The integration of machine learning into the application further enhances its functionality and makes it more intelligent and responsive to user needs."
+        ],
+        "correct_answer": "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+        "difficulty": "High Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What is the relationship between rest and Distributed Denial of Service in complex software systems?",
+        "options": [
+            "In addition to machine learning, the system employs industry-standard security protocols such as encryption, secure authentication, and authorization mechanisms.",
+            "This ensures that data in transit and at rest is protected from unauthorized access.",
+            "The application also undergoes regular security testing to identify vulnerabilities and implement patches before they can be exploited.",
+            "Security is an ongoing process, and the system is designed to evolve alongside emerging threats to stay one step ahead of potential risks."
+        ],
+        "correct_answer": "In addition to machine learning, the system employs industry-standard security protocols such as encryption, secure authentication, and authorization mechanisms.",
+        "difficulty": "High Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How would you optimize a system that uses both NLP and nlp?",
+        "options": [
+            "Once the design phase is complete, Flask, a lightweight Python web framework, is used to build the system.",
+            "The system architecture incorporates Figma, a powerful design tool, to create detailed prototypes that align with user needs and expectations.",
+            "This architecture not only simplifies development but also guarantees that the system can easily scale as user demands increase.",
+            "The initial step in any successful software project is designing an effective and maintainable architecture."
+        ],
+        "correct_answer": "Once the design phase is complete, Flask, a lightweight Python web framework, is used to build the system.",
+        "difficulty": "High Level",
+        "matched_keyword": "machine_learning"
+    },
+    {
+        "question": "How does UI enhance Mobile Compatibility Mobile in software architecture?",
+        "options": [
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "A good UI/UX design enhances user satisfaction. .",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "High Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "What is the primary purpose of Mobile Compatibility Mobile in software engineering?",
+        "options": [
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "A good UI/UX design enhances user satisfaction. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "Low Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "What advantage does rest provide in software engineering?",
+        "options": [
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "What is Mobile Compatibility Mobile used for in software development?",
+        "options": [
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "Low Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How does RBAC integrate with other components in a software system?",
+        "options": [
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "When implementing AI, how does it affect the overall artificial intelligence strategy?",
+        "options": [
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. .",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "How would you evaluate the effectiveness of Application & Analysis in a distributed system?",
+        "options": [
+            "Scientists are researching artificial photosynthesis to create sustainable energy sources and reduce carbon emissions.",
+            "High Level (Application & Analysis) .",
+            "Gravity is essential for maintaining the orbits of planets around the sun.",
+            "Photosynthesis occurs in the chloroplasts of plant cells, where carbon dioxide and water are converted into glucose and oxygen using sunlight."
+        ],
+        "correct_answer": "High Level (Application & Analysis) .",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What are the advanced implementation considerations for Application & Analysis?",
+        "options": [
+            "Photosynthesis occurs in the chloroplasts of plant cells, where carbon dioxide and water are converted into glucose and oxygen using sunlight.",
+            "High Level (Application & Analysis) .",
+            "It also ensures that objects remain grounded on Earth. .",
+            "Without gravity, planets would move in straight lines instead of orbiting the sun, leading to chaotic motion in the universe. ."
+        ],
+        "correct_answer": "High Level (Application & Analysis) .",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What are the security implications of implementing Single Responsibility Principle?",
+        "options": [
+            "Each module or class should have only one responsible for part of the functionalities provided by the software.",
+            "Using single responsibility for your code also makes the code more organized and easier to read.",
+            "Classes or functions with single functionalities are more understandable, manageable, and customizable.",
+            "Single Responsibility Principle guides how modules, classes, and functions should operate by design."
+        ],
+        "correct_answer": "Single Responsibility Principle guides how modules, classes, and functions should operate by design.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What are the security implications of implementing OCP?",
+        "options": [
+            "Development teams implement features, test them, and then deliver them to users.",
+            "Instead, add an extension that introduces your proposed functionalities in place of changing a fundamental code.",
+            "OCP also states that code can be open to extension but closed to modification.",
+            "On the premise of introducing new functionalities, OCP says that it's incorrect to change an already existing code or functionality."
+        ],
+        "correct_answer": "On the premise of introducing new functionalities, OCP says that it's incorrect to change an already existing code or functionality.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What role does machine learning play in modern software development?",
+        "options": [
+            "Horizontal scaling enables applications to distribute workloads across multiple servers, ensuring high availability and resilience.",
+            "Database indexing, caching, and query optimization techniques contribute to performance optimization and improved system performance.",
+            "Effective threat detection mechanisms, including anomaly detection and intrusion prevention systems, help in identifying and mitigating security risks.",
+            "Secure authentication and data encryption are critical for ensuring data protection in web applications, mobile apps, and enterprise systems."
+        ],
+        "correct_answer": "Database indexing, caching, and query optimization techniques contribute to performance optimization and improved system performance.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How is UI/UX implemented in software systems?",
+        "options": [
+            "A good UI/UX design enhances user satisfaction. .",
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "Low Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How does RBAC contribute to software system architecture?",
+        "options": [
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How does Machine Learning enhance AI in software architecture?",
+        "options": [
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. .",
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "What is UX Design UI used for in software development?",
+        "options": [
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authorization, on the other hand, determines what resources a user can access. .",
+            "A good UI/UX design enhances user satisfaction. .",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "Low Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "What role does rest play in modern software development?",
+        "options": [
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How does Cybersecurity and Threat Detection Cybersecurity enhance Machine Learning in software architecture?",
+        "options": [
+            "Quantum Computing Quantum computing is an advanced field of computation that uses quantum bits (qubits) to solve complex problems much faster than traditional computers.",
+            "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+            "Cybersecurity and Threat Detection Cybersecurity protects systems from cyber threats.",
+            "Threat detection involves identifying malicious activities using AI and machine learning techniques. ."
+        ],
+        "correct_answer": "Machine Learning and Artificial Intelligence Machine learning is a branch of AI that enables systems to learn from data and improve their performance over time. .",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "Which of the following best describes UI?",
+        "options": [
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authorization, on the other hand, determines what resources a user can access. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "Low Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "How does rest contribute to software system architecture?",
+        "options": [
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "When implementing git, how does it affect the overall waterfall strategy?",
+        "options": [
+            "Software Engineering is a branch of computer science that deals with the systematic design, development, testing, deployment, and maintenance of software systems.",
+            "The primary goal of software engineering is to improve the quality of software products while reducing the time and resources required for development.",
+            "Design: o In the design phase, the system architecture is created, including detailed design speci\ufb01cations for system components. .",
+            "Software engineering applies engineering principles to software creation, ensuring that the resulting systems are robust and aligned with user needs."
+        ],
+        "correct_answer": "Software Engineering is a branch of computer science that deals with the systematic design, development, testing, deployment, and maintenance of software systems.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": "scalability"
+    },
+    {
+        "question": "What is the relationship between Google Cloud and microservices in complex software systems?",
+        "options": [
+            "o Applications are built as a collection of small, loosely coupled services, improving scalability and fault tolerance. .",
+            "Arti\ufb01cial Intelligence (AI) in Software Development: o AI is being used to optimize code generation, automate testing, and provide intelligent recommendations for design improvements. .",
+            "Cloud Computing: o Software is increasingly being designed for cloud environments, leveraging services like AWS, Azure, and Google Cloud. .",
+            "Emerging Trends in Software Engineering The \ufb01eld of software engineering evolves rapidly, in\ufb02uenced by advancements in technology."
+        ],
+        "correct_answer": "Cloud Computing: o Software is increasingly being designed for cloud environments, leveraging services like AWS, Azure, and Google Cloud. .",
+        "difficulty": "High Level",
+        "matched_keyword": "blockchain"
+    },
+    {
+        "question": "What advantage does nlp provide in software engineering?",
+        "options": [
+            "Additionally, SQLAlchemy abstracts database-specific details, allowing for greater flexibility in database management.",
+            "The backend of the application utilizes MySQL as the database engine to store and manage essential data such as staff payroll, student attendance, and staff details.",
+            "By using Figma, the design process becomes more collaborative, allowing developers, designers, and stakeholders to communicate efficiently.",
+            "SQLAlchemy, an Object- Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database."
+        ],
+        "correct_answer": "SQLAlchemy, an Object- Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What advantage does Bootstrap provide in software engineering?",
+        "options": [
+            "This dynamic functionality ensures that users can interact with the system in a way that is intuitive and relevant to their needs.",
+            "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+            "Teachers have access to data relevant to the students they manage, and they can view attendance records for specific students based on index numbers.",
+            "The implementation of RBAC also enhances the security of the application by ensuring that users cannot perform unauthorized actions, such as modifying other users\u2019 records or accessing sensitive data."
+        ],
+        "correct_answer": "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "bootstrap"
+    },
+    {
+        "question": "How does Distributed Denial of Service integrate with other components in a software system?",
+        "options": [
+            "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+            "These models are trained on historical data and use statistical algorithms to make informed predictions based on current inputs.",
+            "The application integrates machine learning models designed to detect and classify potential security threats, such as anomalies in network traffic that could indicate a cyberattack.",
+            "This integration allows the application to perform complex tasks like optical character recognition (OCR) and provide real-time feedback."
+        ],
+        "correct_answer": "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What advantage does sqlalchemy provide in software engineering?",
+        "options": [
+            "Through careful consideration of both current and future requirements, the system provides a comprehensive solution that enhances user experience and delivers intelligent insights.",
+            "The use of Flask and SQLAlchemy helps maintain efficient performance, even as the system scales.",
+            "The application is built to be robust, scalable, and responsive, ensuring it meets the needs of users while maintaining high standards of security and performance.",
+            "The modular and scalable architecture ensures that the system can evolve with new technologies and user demands, making it future-proof and adaptable to changing needs."
+        ],
+        "correct_answer": "The use of Flask and SQLAlchemy helps maintain efficient performance, even as the system scales.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What is the primary purpose of Authentication and Authorization Authentication in software engineering?",
+        "options": [
+            "Mobile Compatibility Mobile compatibility ensures that a website or application works well on different screen sizes and devices.",
+            "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+            "Authentication and Authorization Authentication is the process of verifying a user's identity.",
+            "Authorization, on the other hand, determines what resources a user can access. ."
+        ],
+        "correct_answer": "User Interface (UI) and UX Design UI refers to the visual elements of an application, while UX focuses on user experience and usability.",
+        "difficulty": "Low Level",
+        "matched_keyword": "authentication"
+    },
+    {
+        "question": "What role does RBAC play in modern software development?",
+        "options": [
+            "Database Schema and Referential Integrity A database schema defines the structure of a database, while referential integrity ensures consistency between related tables by maintaining foreign key constraints.",
+            "Role-Based Access Control (RBAC) RBAC restricts system access based on user roles.",
+            "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+            "Cloud Computing and Security Cloud computing allows users to store and access data over the internet."
+        ],
+        "correct_answer": "Cloud security involves encryption, authentication, and monitoring to protect sensitive data. .",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How does sqlalchemy enhance microservices in software architecture?",
+        "options": [
+            "Bootstrap's grid system, themes, and JavaScript plugins simplify UI development, allowing developers to create user-friendly interfaces.",
+            "Flask is a lightweight web framework that simplifies the development of web applications.",
+            "Using SQLAlchemy, developers can manage database interactions effectively while maintaining referential integrity and data consistency.",
+            "Figma is a collaborative design tool that helps designers and developers create interactive UI prototypes."
+        ],
+        "correct_answer": "Bootstrap's grid system, themes, and JavaScript plugins simplify UI development, allowing developers to create user-friendly interfaces.",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "How does MFA integrate with other components in a software system?",
+        "options": [
+            "Adhering to UI/UX principles ensures that applications provide a seamless and intuitive user experience.",
+            "Database indexing, caching, and query optimization techniques contribute to performance optimization and improved system performance.",
+            "This approach is essential for cloud-based applications and microservices architectures that require dynamic scalability.",
+            "Modular architecture is commonly used in microservices, enterprise applications, and cloud-based solutions, allowing developers to build and deploy features independently."
+        ],
+        "correct_answer": "Database indexing, caching, and query optimization techniques contribute to performance optimization and improved system performance.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "What are the security implications of implementing Application & Analysis?",
+        "options": [
+            "High Level (Application & Analysis) .",
+            "It also ensures that objects remain grounded on Earth. .",
+            "Scientists are researching artificial photosynthesis to create sustainable energy sources and reduce carbon emissions.",
+            "Gravity is essential for maintaining the orbits of planets around the sun."
+        ],
+        "correct_answer": "High Level (Application & Analysis) .",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What role does orm play in modern software development?",
+        "options": [
+            "With SQLAlchemy, developers can work with Python objects and models instead of writing raw SQL queries, which significantly reduces development time and complexity.",
+            "The database schema is designed with interrelated tables like payroll, staff, and attendance, ensuring that data is logically structured and can be queried efficiently.",
+            "By using Figma, the design process becomes more collaborative, allowing developers, designers, and stakeholders to communicate efficiently.",
+            "SQLAlchemy, an Object- Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database."
+        ],
+        "correct_answer": "SQLAlchemy, an Object- Relational Mapping (ORM) tool, is integrated to simplify the interaction between the Flask application and the database.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What advantage does RBAC provide in software engineering?",
+        "options": [
+            "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+            "The system also optimizes mobile compatibility by ensuring elements like toggle buttons and forms are mobile-friendly, ensuring a seamless experience on smaller screens.",
+            "In this project, the system implements a detailed RBAC structure, which tailors the user experience based on the user\u2019s role.",
+            "For example, administrators have full access to all data, including detailed payroll information and attendance records, as well as the ability to modify system settings."
+        ],
+        "correct_answer": "The application leverages Bootstrap and custom styles to build a visually appealing and responsive design that adapts well across various devices, including desktops, tablets, and smartphones.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "bootstrap"
+    },
+    {
+        "question": "How does flask integrate with other components in a software system?",
+        "options": [
+            "The application also undergoes regular security testing to identify vulnerabilities and implement patches before they can be exploited.",
+            "This integration allows the application to perform complex tasks like optical character recognition (OCR) and provide real-time feedback.",
+            "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+            "Performance and scalability are two essential considerations in the development of any software system, especially when dealing with large datasets or a growing user base."
+        ],
+        "correct_answer": "Machine learning models are embedded within the Flask application, which enables seamless communication between the user interface and the predictive models.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "What role does Flask play in modern software development?",
+        "options": [
+            "The modular design allows developers to introduce new features and functionalities without impacting the core system performance.",
+            "The use of Flask and SQLAlchemy helps maintain efficient performance, even as the system scales.",
+            "Flask is lightweight and efficient, handling requests quickly, while SQLAlchemy optimizes database interactions by minimizing the number of queries required to fetch data.",
+            "The application is built to be robust, scalable, and responsive, ensuring it meets the needs of users while maintaining high standards of security and performance."
+        ],
+        "correct_answer": "The use of Flask and SQLAlchemy helps maintain efficient performance, even as the system scales.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "flask"
+    },
+    {
+        "question": "How does artificial intelligence affect scalability and performance in enterprise systems?",
+        "options": [
+            "Understanding Artificial Intelligence and Its Applications",
+            "It enhances security by implementing encryption and access controls.",
+            "Understanding Artificial Intelligence and Its Applications",
+            "It improves system performance through optimized algorithms."
+        ],
+        "correct_answer": "Understanding Artificial Intelligence and Its Applications",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How would you optimize a system that uses both artificial intelligence and orm?",
+        "options": [
+            "Artificial Intelligence (AI) is a branch of computer science that deals with creating intelligent machines capable of performing tasks that typically require human intelligence.",
+            "Artificial Intelligence (AI) is a branch of computer science that deals with creating intelligent machines capable of performing tasks that typically require human intelligence.",
+            "Over the years, AI has transformed from a theoretical concept to a reality with a wide range of applications across various industries.",
+            "Over the years, AI has transformed from a theoretical concept to a reality with a wide range of applications across various industries."
+        ],
+        "correct_answer": "Artificial Intelligence (AI) is a branch of computer science that deals with creating intelligent machines capable of performing tasks that typically require human intelligence.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How would you optimize a system that uses both Types of Artificial Intelligence and artificial intelligence?",
+        "options": [
+            "artificial intelligence is a key technology used in modern software development.",
+            "It streamlines the development process through automated workflows.",
+            "It provides a scalable architecture for enterprise applications.",
+            "It enhances security by implementing encryption and access controls."
+        ],
+        "correct_answer": "artificial intelligence is a key technology used in modern software development.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How does AI enhance General AI in software architecture?",
+        "options": [
+            "AI can be classified into two main categories: Narrow AI and General AI.",
+            "It reduces technical debt by enforcing coding standards and best practices.",
+            "It enables cross-platform compatibility through standardized interfaces.",
+            "AI can be classified into two main categories: Narrow AI and General AI."
+        ],
+        "correct_answer": "AI can be classified into two main categories: Narrow AI and General AI.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How would you optimize a system that uses both Narrow AI and AI?",
+        "options": [
+            "It excels at performing one task very well but lacks the ability to perform tasks outside its programmed scope.",
+            "It provides a scalable architecture for enterprise applications.",
+            "Narrow AI (Weak AI): This type of AI is designed to perform a specific task, such as facial recognition, internet search, or self-driving cars.",
+            "The majority of AI applications today are forms of Narrow AI."
+        ],
+        "correct_answer": "Narrow AI (Weak AI): This type of AI is designed to perform a specific task, such as facial recognition, internet search, or self-driving cars.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "What is the relationship between machine learning and api in complex software systems?",
+        "options": [
+            "By leveraging machine learning, businesses can uncover patterns and insights from vast amounts of data, which allows them to make better predictions, improve efficiency, and drive growth.",
+            "AI\u00e2\u20ac\u2122s ability to process and analyze real-time data also ensures that systems can scale dynamically, adjusting to changing market conditions without human intervention.",
+            "In enterprise systems, AI enhances decision-making, optimizes resource allocation, and automates routine tasks.",
+            "Artificial intelligence (AI) is revolutionizing industries and reshaping the way businesses approach problem-solving and innovation."
+        ],
+        "correct_answer": "Artificial intelligence (AI) is revolutionizing industries and reshaping the way businesses approach problem-solving and innovation.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How does AI affect scalability and performance in enterprise systems?",
+        "options": [
+            "This is where hybrid systems, which combine AI with human intelligence, have shown to be most effective.",
+            "While AI can process vast datasets much faster and more accurately than humans, it often lacks the contextual understanding that humans possess.",
+            "One of the key challenges when integrating AI into enterprise systems is ensuring the balance between AI-driven decisions and human oversight.",
+            "These systems allow businesses to harness the strengths of both AI and human decision-makers, making systems more robust and resilient to unexpected scenarios."
+        ],
+        "correct_answer": "One of the key challenges when integrating AI into enterprise systems is ensuring the balance between AI-driven decisions and human oversight.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "How does AI enhance orm in software architecture?",
+        "options": [
+            "It provides a scalable architecture for enterprise applications.",
+            "In the context of software architecture, AI plays a crucial role in shaping the design and scalability of systems.",
+            "This is where optimization strategies such as load balancing, data caching, and distributed computing come into play.",
+            "AI-powered systems must be designed to handle vast amounts of data and computational complexity while maintaining a high level of performance."
+        ],
+        "correct_answer": "In the context of software architecture, AI plays a crucial role in shaping the design and scalability of systems.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": "scalability"
+    },
+    {
+        "question": "When implementing orm, how does it affect the overall healthcare strategy?",
+        "options": [
+            "It enables cross-platform compatibility through standardized interfaces.",
+            "In healthcare, AI-driven tools can analyze medical images, predict disease progression, and assist in diagnosing conditions that might otherwise be missed.",
+            "In finance, AI is used for fraud detection, risk assessment, and algorithmic trading.",
+            "As AI continues to evolve, its potential to drive transformation in different industries is only expected to grow."
+        ],
+        "correct_answer": "In healthcare, AI-driven tools can analyze medical images, predict disease progression, and assist in diagnosing conditions that might otherwise be missed.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    },
+    {
+        "question": "When implementing orm, how does it affect the overall AI strategy?",
+        "options": [
+            "By optimizing systems for AI, businesses are not only improving their current processes but are also laying the groundwork for future innovations.",
+            "It improves system performance through optimized algorithms.",
+            "As the technology matures, the capabilities of AI will expand, offering even more powerful tools for companies to harness.",
+            "The key to success will be an ongoing focus on scalability, performance, and the seamless integration of AI with existing business systems."
+        ],
+        "correct_answer": "The key to success will be an ongoing focus on scalability, performance, and the seamless integration of AI with existing business systems.",
+        "difficulty": "Uncategorized",
+        "matched_keyword": "scalability"
+    },
+    {
+        "question": "How would you optimize a system that uses both flask and Bootstrap and Figma?",
+        "options": [
+            "Bootstrap's grid system, themes, and JavaScript plugins simplify UI development, allowing developers to create user-friendly interfaces.",
+            "Bootstrap is a frontend framework that provides pre-designed components and responsive layouts, making web development faster and more efficient.",
+            "It provides essential tools for building scalable and maintainable web solutions, making it popular among developers.",
+            "It encompasses techniques like encryption, threat detection, and secure authentication to ensure data confidentiality, integrity, and availability."
+        ],
+        "correct_answer": "Bootstrap's grid system, themes, and JavaScript plugins simplify UI development, allowing developers to create user-friendly interfaces.",
+        "difficulty": "High Level",
+        "matched_keyword": "cybersecurity"
+    },
+    {
+        "question": "What role does microservices play in modern software development?",
+        "options": [
+            "Horizontal scaling enables applications to distribute workloads across multiple servers, ensuring high availability and resilience.",
+            "Effective threat detection mechanisms, including anomaly detection and intrusion prevention systems, help in identifying and mitigating security risks.",
+            "Database indexing, caching, and query optimization techniques contribute to performance optimization and improved system performance.",
+            "User-centric design approaches focus on accessibility, ease of navigation, and aesthetic appeal, enhancing overall user satisfaction."
+        ],
+        "correct_answer": "Database indexing, caching, and query optimization techniques contribute to performance optimization and improved system performance.",
+        "difficulty": "Medium Level",
+        "matched_keyword": "encryption"
+    },
+    {
+        "question": "How does Application & Analysis affect scalability and performance in enterprise systems?",
+        "options": [
+            "High Level (Application & Analysis) .",
+            "Photosynthesis is the process by which plants make their own food using sunlight.",
+            "Scientists are researching artificial photosynthesis to create sustainable energy sources and reduce carbon emissions.",
+            "Gravity is the force that pulls objects toward the center of the Earth. ."
+        ],
+        "correct_answer": "High Level (Application & Analysis) .",
+        "difficulty": "Uncategorized",
+        "matched_keyword": null
+    }
+]

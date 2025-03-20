@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from './AuthContext'
+import './navbar.css'
 
 const MainLayout = ({ children }) => {
   const { user, logout } = useContext(AuthContext)
@@ -14,34 +15,60 @@ const MainLayout = ({ children }) => {
   return (
     <>
       <nav className='navbar'>
-        <ul>
-          {user ? (
-            <>
-              <li>
-                <button onClick={handleLogout}>Logout</button>
-              </li>
-              {/* 
-              <li>
-                <Link to='/Sub_Selection'>Refresh </Link>
-              </li> */}
-              <li>
-                <Link to='/Sub_Selection'>Subject Selection</Link>
-              </li>
-            </>
-          ) : (
-            <>
-              <li>
-                <Link to='/'>Home</Link>
-              </li>
-              <li>
-                <Link to='/User_login'>Login</Link>
-              </li>
-              <li>
-                <Link to='/User_Register'>Register</Link>
-              </li>
-            </>
+        <div className='navbar-container'>
+          <div className='navbar-brand'>
+            <Link to='/' className='logo'>
+              <span className='logo-text-primary'>QUIZ</span>
+              <span className='logo-text-secondary'>APP</span>
+            </Link>
+          </div>
+
+          <div className='navbar-menu'>
+            {user ? (
+              <>
+                <Link to='/Que_Bank' className='navbar-link'>
+                  Question Bank
+                </Link>
+                <Link
+                  to='/Sub_Selection'
+                  className='navbar-link subject-selection'
+                >
+                  Subject Selection
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link to='/' className='navbar-link'>
+                  Home
+                </Link>
+                <Link to='/User_login' className='navbar-link'>
+                  Login
+                </Link>
+                <Link to='/User_Register' className='navbar-link'>
+                  Register
+                </Link>
+              </>
+            )}
+          </div>
+
+          {/* {user && (
+            <div className='user-profile'>
+              <div className='user-avatar'>
+                <img
+                  src='/user-avatar.png'
+                  alt='User'
+                  className='avatar-image'
+                />
+              </div>
+            </div>
+          )} */}
+
+          {user && (
+            <button onClick={handleLogout} className='navbar-button logout-btn'>
+              Logout
+            </button>
           )}
-        </ul>
+        </div>
       </nav>
 
       <main>{children}</main>

@@ -1,0 +1,128 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #0e3769;
+  color: white;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo-text-primary {
+  color: #4a9fff;
+}
+
+.logo-text-secondary {
+  color: white;
+  margin-left: 5px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 2rem;
+}
+
+.navbar-link {
+  color: white; /* Ensuring links are white */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  margin: 0 15px;
+}
+
+.navbar-link:hover {
+  color: #4a9fff;
+}
+
+/* New container for the logout button */
+.navbar-button-container {
+  margin-left: auto; /* Pushes the button to the right */
+}
+
+.navbar-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: white;
+  color: #0e3769;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 0 1rem;
+  }
+
+  .navbar-item {
+    margin-left: 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-menu {
+    display: none; /* For mobile, you might want to implement a hamburger menu */
+  }
+}
